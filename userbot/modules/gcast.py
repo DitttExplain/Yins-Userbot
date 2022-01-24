@@ -14,7 +14,7 @@ from userbot import CMD_HELP
 from userbot.events import register
 
 GCAST_BLACKLIST = [
-    -1001380293847,  # NastySupport
+    -1001380293847, -1001675396283, # NastySupport # AyiinSupport
 ]
 
 
