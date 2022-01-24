@@ -188,7 +188,7 @@ YOUTUBE_API_KEY=os.environ.get(
     "YOUTUBE_API_KEY") or "AIzaSyACwFrVv-mlhICIOCvDQgaabo6RIoaK8Dg"
 
 # Untuk Perintah .yinsalive
-YINS_TEKS_KUSTOM=os.environ.get("YINS_TEKS_KUSTOM", "I'am Using Yins-Userbot ✨"))
+YINS_TEKS_KUSTOM=os.environ.get("YINS_TEKS_KUSTOM", "I'am Using Yins-Userbot ✨")
 
 # Untuk Mengubah Pesan Welcome
 START_WELCOME=os.environ.get("START_WELCOME", None)
@@ -377,7 +377,7 @@ with bot:
 
 
 async def check_alive():
-    await bot.send_file(BOTLOG_CHATID, ALIVE_LOGO, caption=f"**Kyy-Userbot Berhasil Diaktifkan✨**\n━━━━━━━━━━━━━━━━━━━\n❃ **ʙᴏᴛ ᴏꜰ :** {ALIVE_NAME}\n❃ **ʙᴏᴛ ᴠᴇʀ :** 7.0\n━━━━━━━━━━━━━━━━━━━\n❃ **sᴜᴘᴘᴏʀᴛ​ :** @NastySupportt\n❃ **ᴄʜᴀɴɴᴇʟ​ :** @NastyProject \n━━━━━━━━━━━━━━━━━━━")
+    await bot.send_file(BOTLOG_CHATID, ALIVE_LOGO, caption=f"**Yins-Userbot Berhasil Diaktifkan✨**\n━━━━━━━━━━━━━━━━━━━\n❃ **ʙᴏᴛ ᴏꜰ :** {ALIVE_NAME}\n❃ **ʙᴏᴛ ᴠᴇʀ :** 7.0\n━━━━━━━━━━━━━━━━━━━\n❃ **sᴜᴘᴘᴏʀᴛ​ :** @AyiinXdSupport\n❃ **ᴄʜᴀɴɴᴇʟ​ :** @AyiinSupport \n━━━━━━━━━━━━━━━━━━━")
     return
 
 
