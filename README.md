@@ -2,14 +2,14 @@
 
 <p align="center">
     <a href="https://github.com/AyiinXd/Yins-Userbot/commits/Kyy-Userbot"><img src="https://img.shields.io/github/last-commit/muhammadrizky16/Kyy-Userbot?color=ff0000&logo=github&logoColor=ffffff&style=for-the-badge" /></a>
-    <a href="https://github.com/muhammadrizky16/Kyy-Userbot"> <img src="https://img.shields.io/github/repo-size/muhammadrizky16/Kyy-Userbot?logo=github&style=for-the-badge" /></a>
+    <a href="https://github.com/AyiinXd/Yins-Userbot"> <img src="https://img.shields.io/github/repo-size/AyiinXd/Yins-Userbot?logo=github&style=for-the-badge" /></a>
     <a href="https://pypi.org/project/Telethon/"><img src="https://img.shields.io/pypi/v/telethon?color=important&label=telethon&logo=python&logoColor=brightgreen&style=for-the-badge" /></a>
     <img alt="PYTHON" src="https://img.shields.io/badge/PYTHON-v3.9.6-purple?style=for-the-badge&logo=appveyor"/>
     </p>
 
 
 <p align="center">
-  <img src="https://telegra.ph/file/276d22aac9f400898cd27.jpg">
+  <img src="https://telegra.ph/file/21bca0a64032cd5b23b3c.jpg">
 </p>
 
 
