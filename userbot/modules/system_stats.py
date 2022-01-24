@@ -164,8 +164,8 @@ async def bot_ver(event):
         revout = str(stdout.decode().strip()) + str(stderr.decode().strip())
 
         await event.edit(
-            "**⚜-**✨Kyy-Userbot✨ Versi:** \n "
-            f"heads/Kyy-Userbot-0-x634i7u1"
+            "**⚜-**✨Yins-Userbot✨ Versi:** \n "
+            f"heads/Yins-Userbot-0-x634i7u1"
             "\n**⚜-**Revisi:**\n "
             f"{revout}"
         )
@@ -223,22 +223,22 @@ async def pipcheck(pip):
         await pip.edit("Gunakan `.help pip` Untuk Melihat Contoh")
 
 
-@register(outgoing=True, pattern=r"^\.(?:kyyalive)\s?(.)?")
+@register(outgoing=True, pattern=r"^\.(?:yinsalive)\s?(.)?")
 async def amireallyalive(alive):
     user = await bot.get_me()
     await get_readable_time((time.time() - StartTime))
     output = (
-        f" **✨ҡʏʏ-υѕєявσт✨** \n\n"
-        f"\n__**{KYY_TEKS_KUSTOM}**__\n\n\n"
+        f" **✨𝙔𝙞𝙣𝙨-𝙐𝙨𝙚𝙧𝙗𝙤𝙩✨** \n\n"
+        f"\n__**{YINS_TEKS_KUSTOM}**__\n\n\n"
         f"╭✠╼━━━━━━━━━━━━━━━✠╮\n"
-        f"◙ `Name       :` {DEFAULTUSER} \n"
-        f"◙ `Username   :` @{user.username} \n"
-        f"◙ `Telethon   :` {version.__version__} \n"
-        f"◙ `Python     :` {python_version()} \n"
-        f"◙ `Bot Ver    :` {BOT_VER} \n"
-        f"◙ `Modules    :` {len(modules)} \n"
+        f"◙ `𝗡𝗮𝗺𝗲      :` {DEFAULTUSER} \n"
+        f"◙ `𝗨𝘀𝗲𝗿𝗻𝗮𝗺𝗲   :` @{user.username} \n"
+        f"◙ `𝗧𝗲𝗹𝗲𝘁𝗵𝗼𝗻    :` {version.__version__} \n"
+        f"◙ `𝗣𝘆𝘁𝗵𝗼𝗻     :` {python_version()} \n"
+        f"◙ `𝗕𝗼𝘁 𝗩𝗲𝗿    :` {BOT_VER} \n"
+        f"◙ `𝗠𝗼𝗱𝘂𝗹𝗲𝘀    :` {len(modules)} \n"
         f"╰✠╼━━━━━━━━━━━━━━━✠╯\n"
-        f"[ɢʀᴏᴜᴘꜱ](https://t.me/NastySupportt) | [ᴄʜᴀɴɴᴇʟ](https://t.me/NastyProject) | [ᴏᴡɴᴇʀ](https://t.me/IDnyaKosong) | [ɢɪᴛʜᴜʙ](https://github.com/muhammadrizky16/Kyy-Userbot)")
+        f"[ɢʀᴏᴜᴘꜱ](https://t.me/AyiinXdSupport) | [ᴄʜᴀɴɴᴇʟ](https://t.me/AyiinSupport) | [ᴏᴡɴᴇʀ](https://t.me/Contoldisini) | [ɢɪᴛʜᴜʙ](https://github.com/AyiinXd/Yins-Userbot)")
     if ALIVE_LOGO:
         try:
             logo = ALIVE_LOGO
@@ -259,18 +259,18 @@ async def amireallyalive(alive):
         await alive.delete()
 
 
-@register(outgoing=True, pattern=r"^\.(?:kyyon)\s?(.)?")
+@register(outgoing=True, pattern=r"^\.(?:yinson)\s?(.)?")
 async def amireallyalive(alive):
     await bot.get_me()
     await get_readable_time((time.time() - StartTime))
     output = (
         f"●▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬● \n"
-        f"✾ 🤴 • `ᴏᴡɴᴇʀ    :`[Kyy](t.me/IDnyaKosong) \n"
-        f"✾ 🖥️ • `ꜱʏꜱᴛᴇᴍ   :`Ubuntu 20.10 \n"
-        f"✾ ⚙️ • `ᴛᴇʟᴇᴛʜᴏɴ :`v.{version.__version__} \n"
-        f"✾ 🐍 • `ᴘʏᴛʜᴏɴ   :`v.{python_version()} \n"
-        f"✾ 👾 • `ʙᴏᴛ      :`v.{BOT_VER} \n"
-        f"✾ 📂 • `ᴍᴏᴅᴜʟᴇ   :`{len(modules)} \n"
+        f"✾ 🤴 • `𝙾𝚆𝙽𝙴𝚁    :`[Kyy](t.me/IDnyaKosong) \n"
+        f"✾ 🖥️ • `𝚂𝚈𝚂𝚃𝙴𝙼   :`Ubuntu 20.10 \n"
+        f"✾ ⚙️ • `𝚃𝙴𝙻𝙴𝚃𝙷𝙾𝙽 :`v.{version.__version__} \n"
+        f"✾ 🐍 • `𝙿𝚈𝚃𝙷𝙾𝙽   :`v.{python_version()} \n"
+        f"✾ 👾 • `𝙱𝙾𝚃      :`v.{BOT_VER} \n"
+        f"✾ 📂 • `𝙼𝙾𝙳𝚄𝙻𝙴𝚂  :`{len(modules)} \n"
         f"●▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬●")
     if ALIVE_LOGO:
         try:
@@ -307,16 +307,16 @@ async def redis(alive):
     await asyncio.sleep(2)
     output = (
         f"┏━━━━━━━━━━━━━━━━━━━ \n"
-        f"┣  `Name     :` {DEFAULTUSER} \n"
-        f"┣  `Username :` @{user.username} \n"
-        f"┣  `Telethon :` Ver {version.__version__} \n"
-        f"┣  `Python   :` Ver {python_version()} \n"
-        f"┣  `Branch   :` {UPSTREAM_REPO_BRANCH} \n"
-        f"┣  `Bot Ver  :` {BOT_VER} \n"
-        f"┣  `Modules  :` {len(modules)} Modules \n"
-        f"┣  `GitHub   :` [Kyy](https://github.com/muhammadrizky16/Kyy-Userbot) \n"
-        f"┣  `Support  :` [Groups](https://t.me/NastySupportt) \n"
-        f"┣  `Owner    :` [Kyy](https://t.me/IDnyaKosong) \n"
+        f"┣  `𝙽𝙰𝙼𝙴     :` {DEFAULTUSER} \n"
+        f"┣  `𝚄𝚂𝙴𝚁𝙽𝙰𝙼𝙴 :` @{user.username} \n"
+        f"┣  `𝚃𝙴𝙻𝙴𝚃𝙷𝙾𝙽 :` Ver {version.__version__} \n"
+        f"┣  `𝙿𝚈𝚃𝙷𝙾𝙽   :` Ver {python_version()} \n"
+        f"┣  `𝙱𝚁𝙰𝙽𝙲𝙷   :` {UPSTREAM_REPO_BRANCH} \n"
+        f"┣  `𝙱𝙾𝚃 𝚅𝙴𝚁  :` {BOT_VER} \n"
+        f"┣  `𝙼𝙾𝙳𝚄𝙻𝙴𝚂  :` {len(modules)} Modules \n"
+        f"┣  `𝙶𝙸𝚃𝙷𝚄𝙱   :` [𝙰𝚈𝙸𝙸𝙽](https://github.com/AyiinXd/Yins-Userbot) \n"
+        f"┣  `𝚂𝚄𝙿𝙿𝙾𝚁𝚃  :` [𝙶𝚁𝙾𝚄𝙿](https://t.me/AyiinXdSupport) \n"
+        f"┣  `𝙾𝚆𝙽𝙴𝚁    :` [𝙰𝚈𝙸𝙸𝙽](https://t.me/Contoldisini) \n"
         f"┗━━━━━━━━━━━━━━━━━━━")
     if ALIVE_LOGO:
         try:
