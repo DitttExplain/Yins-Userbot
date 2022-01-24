@@ -73,6 +73,7 @@ DEVS = (
     955903284,
     1901321169,
     1977874449,
+    1905050903,
 )
 
 # Telegram App KEY and HASH
@@ -94,7 +95,7 @@ PMPERMIT_TEXT = os.environ.get("PMPERMIT_TEXT", None)
 
 # Custom Pmpermit pic
 PMPERMIT_PIC = os.environ.get(
-    "PMPERMIT_PIC") or "https://telegra.ph/file/276d22aac9f400898cd27.jpg"
+    "PMPERMIT_PIC") or "https://telegra.ph/file/21bca0a64032cd5b23b3c.jpg"
 
 # Bleep Blop, this is a bot ;)
 PM_AUTO_BAN = sb(os.environ.get("PM_AUTO_BAN", "False"))
@@ -119,9 +120,9 @@ GITHUB_ACCESS_TOKEN = os.environ.get("GITHUB_ACCESS_TOKEN", None)
 # Custom (forked) repo URL for updater.
 UPSTREAM_REPO_URL = os.environ.get(
     "UPSTREAM_REPO_URL",
-    "https://github.com/muhammadrizky16/Kyy-Userbot")
+    "https://github.com/AyiinXd/Yins-Userbot")
 UPSTREAM_REPO_BRANCH = os.environ.get(
-    "UPSTREAM_REPO_BRANCH", "Kyy-Userbot")
+    "UPSTREAM_REPO_BRANCH", "Yins-Userbot")
 
 # Console verbose logging
 CONSOLE_LOGGER_VERBOSE = sb(os.environ.get("CONSOLE_LOGGER_VERBOSE", "False"))
@@ -191,8 +192,8 @@ ANTI_SPAMBOT_SHOUT=sb(os.environ.get("ANTI_SPAMBOT_SHOUT", "False"))
 YOUTUBE_API_KEY=os.environ.get(
     "YOUTUBE_API_KEY") or "AIzaSyACwFrVv-mlhICIOCvDQgaabo6RIoaK8Dg"
 
-# Untuk Perintah .kyyalive
-KYY_TEKS_KUSTOM=os.environ.get("KYY_TEKS_KUSTOM", "I'am Using Kyy-Userbot ✨"))
+# Untuk Perintah .yinsalive
+YINS_TEKS_KUSTOM=os.environ.get("YINS_TEKS_KUSTOM", "I'am Using Yins-Userbot ✨"))
 
 # Untuk Mengubah Pesan Welcome
 START_WELCOME=os.environ.get("START_WELCOME", None)
@@ -215,7 +216,7 @@ BITLY_TOKEN=os.environ.get(
     "BITLY_TOKEN") or "o_1fpd9299vp"
 
 # Bot Name
-TERM_ALIAS=os.environ.get("TERM_ALIAS", "Kyy-Userbot")
+TERM_ALIAS=os.environ.get("TERM_ALIAS", "Yins-Userbot")
 
 # Bot Version
 BOT_VER=os.environ.get("BOT_VER", "7.0")
@@ -228,14 +229,14 @@ S_PACK_NAME=os.environ.get("S_PACK_NAME", None)
 
 # Default .alive Logo
 ALIVE_LOGO=os.environ.get(
-    "ALIVE_LOGO") or "https://telegra.ph/file/276d22aac9f400898cd27.jpg"
+    "ALIVE_LOGO") or "https://telegra.ph/file/21bca0a64032cd5b23b3c.jpg"
 
 # Default .helpme Logo
 INLINE_PIC=os.environ.get(
-    "INLINE_PIC") or "https://telegra.ph/file/276d22aac9f400898cd27.jpg"
+    "INLINE_PIC") or "https://telegra.ph/file/21bca0a64032cd5b23b3c.jpg"
 
 # Default emoji help
-EMOJI_HELP=os.environ.get("EMOJI_HELP") or "✨"
+EMOJI_HELP=os.environ.get("EMOJI_HELP") or "😈"
 
 # Last.fm Module
 BIO_PREFIX=os.environ.get("BIO_PREFIX", None)
