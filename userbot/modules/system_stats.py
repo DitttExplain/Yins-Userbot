@@ -164,7 +164,7 @@ async def bot_ver(event):
         revout = str(stdout.decode().strip()) + str(stderr.decode().strip())
 
         await event.edit(
-            "**⚜-**✨Yins-Userbot✨ Versi:** \n "
+            "**⚜-**᯽ 𝚈𝙸𝙽𝚂-𝚄𝚂𝙴𝚁𝙱𝙾𝚃 ᯽ Versi:** \n "
             f"heads/Yins-Userbot-0-x634i7u1"
             "\n**⚜-**Revisi:**\n "
             f"{revout}"
@@ -228,7 +228,7 @@ async def amireallyalive(alive):
     user = await bot.get_me()
     await get_readable_time((time.time() - StartTime))
     output = (
-        f" **✨𝙔𝙞𝙣𝙨-𝙐𝙨𝙚𝙧𝙗𝙤𝙩✨** \n\n"
+        f" **᯽ 𝚈𝙸𝙽𝚂-𝚄𝚂𝙴𝚁𝙱𝙾𝚃 ᯽** \n\n"
         f"\n__**{YINS_TEKS_KUSTOM}**__\n\n\n"
         f"╭✠╼━━━━━━━━━━━━━━━✠╮\n"
         f"◙ `𝗡𝗮𝗺𝗲      :` {DEFAULTUSER} \n"
@@ -265,7 +265,7 @@ async def amireallyalive(alive):
     await get_readable_time((time.time() - StartTime))
     output = (
         f"●▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬● \n"
-        f"✾ 🤴 • `𝙾𝚆𝙽𝙴𝚁    :`[Kyy](t.me/IDnyaKosong) \n"
+        f"✾ 🤴 • `𝙾𝚆𝙽𝙴𝚁    :`[𝚈𝙸𝙽𝚂](t.me/Contoldisini) \n"
         f"✾ 🖥️ • `𝚂𝚈𝚂𝚃𝙴𝙼   :`Ubuntu 20.10 \n"
         f"✾ ⚙️ • `𝚃𝙴𝙻𝙴𝚃𝙷𝙾𝙽 :`v.{version.__version__} \n"
         f"✾ 🐍 • `𝙿𝚈𝚃𝙷𝙾𝙽   :`v.{python_version()} \n"
@@ -303,7 +303,7 @@ async def redis(alive):
     await alive.edit("__Sedang Memuat...__")
     await alive.edit("__Sedang Memuat..__")
     await alive.edit("__Sedang Memuat...__")
-    await alive.edit("✨")
+    await alive.edit("🗿")
     await asyncio.sleep(2)
     output = (
         f"┏━━━━━━━━━━━━━━━━━━━ \n"
