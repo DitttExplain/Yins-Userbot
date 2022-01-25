@@ -14,6 +14,7 @@ from userbot import CMD_HELP
 from userbot.events import register
 
 GCAST_BLACKLIST = [
+    -1001675396283,  # AyiinXdSupport
     -1001473548283,  # SharingUserbot
     -1001433238829,  # TedeSupport
     -1001476936696,  # AnosSupport
@@ -26,7 +27,6 @@ GCAST_BLACKLIST = [
     -1001459701099,  # CatUserbotSupport
     -1001109837870,  # TelegramBotIndonesia
     -1001752592753,  # Skyzusupport
-    -1001675396283,  # AyiinXdSupport
     -1001788983303,  # KayzuSupport
     -1001380293847,  # NastySupport
 ]
@@ -42,7 +42,7 @@ async def gcast(event):
     else:
         await event.edit("**Berikan Sebuah Pesan atau Reply**")
         return
-    kk = await event.edit("`Sedang Mengirim Pesan Secara Global... 📢`")
+    kk = await event.edit("`𝙇𝙖𝙜𝙞 𝙉𝙜𝙞𝙧𝙞𝙢 𝙏𝙤𝙙, 𝙆𝙖𝙡𝙤 𝙇𝙞𝙢𝙞𝙩 𝙅𝙖𝙣𝙜𝙖𝙣 𝙎𝙖𝙡𝙖𝙝𝙞𝙣 𝙂𝙪𝙖 !!!`")
     er = 0
     done = 0
     async for x in event.client.iter_dialogs():
@@ -54,7 +54,7 @@ async def gcast(event):
             except BaseException:
                 er += 1
     await kk.edit(
-        f"**Berhasil Mengirim Pesan Ke** `{done}` **Grup, Gagal Mengirim Pesan Ke** `{er}` **Grup**"
+        f"**𝘼𝙡𝙝𝙖𝙢𝙙𝙪𝙡𝙞𝙡𝙡𝙖𝙝 𝘽𝙚𝙧𝙝𝙖𝙨𝙞𝙡 𝙉𝙜𝙞𝙧𝙞𝙢 𝙋𝙚𝙨𝙖𝙣 𝙆𝙚** `{done}` **𝙂𝙧𝙪𝙥, 𝙎𝙤𝙧𝙧𝙮 𝙏𝙤𝙙 𝙂𝙖𝙜𝙖𝙡 𝙈𝙚𝙣𝙜𝙞𝙧𝙞𝙢 𝙋𝙚𝙨𝙖𝙣 𝙆𝙚** `{er}` **𝙂𝙧𝙪𝙥**"
     )
 
 
@@ -68,7 +68,7 @@ async def gucast(event):
     else:
         await event.edit("**Berikan Sebuah Pesan atau Reply**")
         return
-    kk = await event.edit("`Sedang Mengirim Pesan Secara Global... 📢`")
+    kk = await event.edit("`𝙇𝙖𝙜𝙞 𝙉𝙜𝙞𝙧𝙞𝙢 𝙏𝙤𝙙, 𝙆𝙖𝙡𝙤 𝙇𝙞𝙢𝙞𝙩 𝙅𝙖𝙣𝙜𝙖𝙣 𝙎𝙖𝙡𝙖𝙝𝙞𝙣 𝙂𝙪𝙖 !!!`")
     er = 0
     done = 0
     async for x in event.client.iter_dialogs():
@@ -80,7 +80,7 @@ async def gucast(event):
             except BaseException:
                 er += 1
     await kk.edit(
-        f"**Berhasil Mengirim Pesan Ke** `{done}` **chats, Gagal Mengirim Pesan Ke** `{er}` **chats**"
+        f"**𝘼𝙡𝙝𝙖𝙢𝙙𝙪𝙡𝙞𝙡𝙡𝙖𝙝 𝘽𝙚𝙧𝙝𝙖𝙨𝙞𝙡 𝙉𝙜𝙞𝙧𝙞𝙢 𝙋𝙚𝙨𝙖𝙣 𝙆𝙚** `{done}` **𝘾𝙝𝙖𝙩𝙨, 𝙎𝙤𝙧𝙧𝙮 𝙏𝙤𝙙 𝙂𝙖𝙜𝙖𝙡 𝙈𝙚𝙣𝙜𝙞𝙧𝙞𝙢 𝙋𝙚𝙨𝙖𝙣 𝙆𝙚** `{er}` **𝘾𝙝𝙖𝙩𝙨**"
     )
 
 
