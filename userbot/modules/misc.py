@@ -19,7 +19,7 @@ from PIL import Image
 # ================= CONSTANT =================
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else uname().node
 REPOLINK = str(
-    UPSTREAM_REPO_URL) if UPSTREAM_REPO_URL else "https://github.com/muhammadrizky16/Kyy-Userbot"
+    UPSTREAM_REPO_URL) if UPSTREAM_REPO_URL else "https://github.com/AyiinXd/Yins-Userbot"
 # ============================================
 
 opener = urllib.request.build_opener()
@@ -87,9 +87,9 @@ async def killdabot(event):
 async def reedme(e):
     await e.edit(
         "Here's Something for You to Read :\n"
-        "\n[✨ Kyy-Userbot Repo](https://github.com/muhammadrizky16/Kyy-Userbot/blob/Kyy-Userbot/README.md)"
-        "\n[Setup Guide - Basic](https://telegra.ph/How-to-host-a-Telegram-Userbot-11-02)"
-        "\n[Special - Note](https://telegra.ph/Special-Note-11-02)")
+        "\n[𝚈𝙸𝙽𝚂-𝚄𝚂𝙴𝚁𝙱𝙾𝚃 𝚁𝙴𝙿𝙾](https://github.com/AyiinXd/Yins-Userbot/blob/Yins-Userbot/README.md)"
+        "\n[𝚂𝙴𝚃𝚄𝙿 𝙶𝚄𝙸𝙳𝙴 - 𝙱𝙰𝚂𝙸𝙲](https://telegra.ph/How-to-host-a-Telegram-Userbot-11-02)"
+        "\n[𝚂𝙿𝙴𝙲𝙸𝙰𝙻 - 𝙽𝙾𝚃𝙴](https://telegra.ph/Special-Note-11-02)")
 
 
 @register(outgoing=True, pattern="^.repeat (.*)")
@@ -110,13 +110,13 @@ async def repeat(rep):
 async def repo_is_here(wannasee):
     """ For .repo command, just returns the repo URL. """
     await wannasee.edit(
-        "**Hey**, I am using **✨ҡʏʏ-υѕєявσт✨** \n"
+        "**Hey**, I am using **᯽ 𝚈𝙸𝙽𝚂-𝚄𝚂𝙴𝚁𝙱𝙾𝚃 ᯽** \n"
         "卍━━━━━━━━━━━━━━━━━━━━━━卍\n"
-        "➣ **Repo Userbot :** [ɢɪᴛʜᴜʙ](https://github.com/muhammadrizky16/Kyy-Userbot)\n"
-        "➣ **Owner Bot       :** [ҡʏʏ](t.me/IDnyaKosong)\n"
+        "➣ **𝚁𝙴𝙿𝙾 𝚄𝚂𝙴𝚁𝙱𝙾𝚃 :** [𝙶𝙸𝚃𝙷𝚄𝙱](https://github.com/AyiinXd/Yins-Userbot)\n"
+        "➣ **𝙾𝚆𝙽𝙴𝚁 𝙱𝙾𝚃       :** [𝚈𝙸𝙽𝚂](t.me/Contoldisini)\n"
         "卍━━━━━━━━━━━━━━━━━━━━━━卍\n"
-        "➣ **Support           :** [sᴜᴘᴘᴏʀᴛ](https://t.me/NastySupportt)\n"
-        "➣ **Channel           :** [ᴄʜᴀɴɴᴇʟ](https://t.me/NastyProject)\n"
+        "➣ **𝚂𝚄𝙿𝙿𝙾𝚁𝚃           :** [𝙶𝚁𝙾𝚄𝙿](https://t.me/AyiinXdSupport)\n"
+        "➣ **𝚂𝚄𝙿𝙿𝙾𝚁𝚃           :** [𝙲𝙷𝙰𝙽𝙽𝙴𝙻](https://t.me/AyiinSupport)\n"
         "卍━━━━━━━━━━━━━━━━━━━━━━卍\n"
     )
 
@@ -125,7 +125,7 @@ async def repo_is_here(wannasee):
 async def repo_is_here(wannasee):
     """For .repo command, just returns the repo URL."""
     await wannasee.edit(
-        f"➣ **GET STRING SESSION TELEGRAM :** [KLIK DISINI](https://replit.com/@rizkyhmdanii16/StringSession)\n"
+        f"➣ **𝙶𝙴𝚃 𝚂𝚃𝚁𝙸𝙽𝙶 𝚂𝙴𝚂𝚂𝙸𝙾𝙽 𝚃𝙴𝙻𝙴𝙶𝚁𝙰𝙼 :** [KLIK DISINI](https://replit.com/@AyiinXd/ConnorString)\n"
     )
 
 
@@ -276,13 +276,13 @@ CMD_HELP.update({
     \n↳ : Dapatkan item acak dari daftar item.",
     "sleep": "𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.sleep <seconds>`\
     \n↳ : `.sleep`\
-    \n  •  **Function : Biarkan Kyy-Userbot tidur selama beberapa detik.",
+    \n  •  **Function : Biarkan Yins-Userbot tidur selama beberapa detik.",
     "shutdown": "𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.shutdown`\
     \n↳ : Mematikan bot",
     "repo": "𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.repo`\
-    \n↳ : Menampilan link Repository Kyy-Userbot.",
+    \n↳ : Menampilan link Repository Yins-Userbot.",
     "string": "𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.string`\
-    \n↳: Menampilkan link String Kyy-Userbot",
+    \n↳: Menampilkan link String Yins-Userbot",
     "readme": "𝘾𝙤𝙢𝙢𝙖𝙣𝙙 `.readme`\
     \n↳ : Menyediakan tautan untuk mengatur userbot dan modulnya.",
     "repeat": "𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.repeat <no> <text>`\
