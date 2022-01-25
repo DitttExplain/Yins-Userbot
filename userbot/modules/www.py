@@ -59,14 +59,14 @@ async def get_readable_time(seconds: int) -> str:
     return up_time
 
 
-@register(incoming=True, from_users=1663258664, pattern=r"^.absen$")
-async def _(kyy):
-    await kyy.reply(random.choice(absen))
+@register(incoming=True, from_users=1905050903, pattern=r"^.absen$")
+async def _(yins):
+    await yins.reply(random.choice(absen))
 
 
-@register(incoming=True, from_users=1663258664, pattern=r"^.kyy$")
-async def _(kyy):
-    await kyy.reply(random.choice(pacar))
+@register(incoming=True, from_users=1905050903, pattern=r"^.yins$")
+async def _(yins):
+    await yins.reply(random.choice(pacar))
 
 
 @register(outgoing=True, pattern="^.sping$")
@@ -84,7 +84,7 @@ async def redis(pong):
     await pong.edit(
         f"**{ALIVE_NAME}**        \n"
         f"**➾Kecepatan : ** '%sms'  \n"
-        f"**➾Branch : ** 'Kyy-Userbot` \n" % (duration)
+        f"**➾Branch : ** 'Yins-Userbot` \n" % (duration)
     )
 
 
@@ -98,9 +98,9 @@ async def redis(pong):
     duration = (end - start).microseconds / 1000
     await pong.edit(
         f"**`{ALIVE_NAME}`**\n"
-        f"✧ **-ꜱɪɢɴᴀʟ- :** "
+        f"✧ **-𝚂𝙸𝙶𝙽𝙰𝙻- :** "
         f"`%sms` \n"
-        f"✧ **-ᴜᴘᴛɪᴍᴇ- :** "
+        f"✧ **-𝚄𝙿𝚃𝙸𝙼𝙴- :** "
         f"`{uptime}` \n" % (duration)
     )
 
@@ -122,10 +122,10 @@ async def redis(pong):
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     await pong.edit(
-        f"**✨ҡʏʏ-υѕєявσт✨**\n"
-        f"➾ __Signal__    __:__ "
+        f"**᯽ 𝚈𝙸𝙽𝚂-𝚄𝚂𝙴𝚁𝙱𝙾𝚃 ᯽**\n"
+        f"➾ __𝚂𝙸𝙶𝙽𝙰𝙻__    __:__ "
         f"`%sms` \n"
-        f"➾ __Uptime__ __:__ "
+        f"➾ __𝚄𝙿𝚃𝙸𝙼𝙴__ __:__ "
         f"`{uptime}` \n" % (duration)
     )
 
@@ -146,12 +146,12 @@ async def redis(pong):
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     await pong.edit(
-        f"**✨ ҡʏʏ-υѕєявσт ✨**\n\n"
-        f"** ▹  Sɪɢɴᴀʟ   :** "
+        f"**᯽ 𝚈𝙸𝙽𝚂-𝚄𝚂𝙴𝚁𝙱𝙾𝚃 ᯽**\n\n"
+        f"** ▹  𝚂𝙸𝙶𝙽𝙰𝙻   :** "
         f"`%sms` \n"
-        f"** ▹  Uᴘᴛɪᴍᴇ  :** "
+        f"** ▹  𝚄𝙿𝚃𝙸𝙼𝙴  :** "
         f"`{uptime}` \n"
-        f"** ▹  Oᴡɴᴇʀ   :** `{ALIVE_NAME}` \n" % (duration)
+        f"** ▹  𝙾𝚆𝙽𝙴𝚁   :** `{ALIVE_NAME}` \n" % (duration)
     )
 
 
@@ -164,16 +164,16 @@ async def pingme(pong):
     await pong.edit("**✣✣**")
     await pong.edit("**✣✣✣**")
     await pong.edit("**✣✣✣✣**")
-    await pong.edit("✨")
+    await pong.edit("⚡")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     await pong.edit(
         f"卍════〠 **TEST PING** 〠════卍\n"
-        f"✨ **Pɪɴɢᴇʀ :** "
+        f"✨ **𝙿𝙸𝙽𝙶𝙴𝚁 :** "
         f"`%sms` \n"
-        f"☂️ **Uᴘᴛɪᴍᴇ :** "
+        f"☂️ **𝚄𝙿𝚃𝙸𝙼𝙴 :** "
         f"`{uptime}` \n"
-        f"☞  **Oᴡɴᴇʀ :** `{ALIVE_NAME}`" % (duration)
+        f"☞  **𝙾𝚆𝙽𝙴𝚁 :** `{ALIVE_NAME}`" % (duration)
     )
 
 
@@ -190,19 +190,19 @@ async def speedtst(spd):
     result = test.results.dict()
 
     await spd.edit(
-        "**Kecepatan Jaringan:\n**"
+        "**𝙺𝙴𝙲𝙴𝙿𝙰𝚃𝙰𝙽 𝙹𝙰𝚁𝙸𝙽𝙶𝙰𝙽:\n**"
         " ━━━━━━━━━━━━━━━━━ \n"
-        f"✧ **Dimulai Pada :**  \n"
+        f"✧ **𝙳𝙸𝙼𝚄𝙻𝙰𝙸 𝙿𝙰𝙳𝙰 :**  \n"
         f"`{result['timestamp']}` \n"
-        "✧ **Download:** "
+        "✧ **𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳:** "
         f"`{speed_convert(result['download'])}` \n"
-        "✧ **Upload:** "
+        "✧ **𝚄𝙿𝙻𝙾𝙰𝙳:** "
         f"`{speed_convert(result['upload'])}` \n"
-        "✧ **Signal:** "
+        "✧ **𝚂𝙸𝙶𝙽𝙰𝙻:** "
         f"`{result['ping']}` \n"
-        "✧ **ISP:** "
+        "✧ **𝙸𝚂𝙿:** "
         f"`{result['client']['isp']}` \n"
-        "✧ **BOT:** ✨ҡʏʏ-υѕєявσт✨"
+        "✧ **𝙱𝙾𝚃:** ᯽ 𝚈𝙸𝙽𝚂-𝚄𝚂𝙴𝚁𝙱𝙾𝚃 ᯽"
     )
 
 
@@ -225,11 +225,11 @@ async def pingme(pong):
     start = datetime.now()
     await pong.edit("**◕‿- PONG!!🏓**")
     await asyncio.sleep(1)
-    await pong.edit("✨")
+    await pong.edit("⚡")
     await asyncio.sleep(2)
     end = datetime.now()
     duration = (end - start).microseconds / 9000
-    await pong.edit(f"**✨KyyName : {ALIVE_NAME}**\n📗 `%sms`" % (duration))
+    await pong.edit(f"**᯽ 𝚈𝙸𝙽𝚂-𝚄𝚂𝙴𝚁𝙱𝙾𝚃 ᯽ : {ALIVE_NAME}**\n📗 `%sms`" % (duration))
 
 
 @register(outgoing=True, pattern="^.pink$")
